@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-electron",
+  "version": "1.0.0",
+  "description": "An electron app to simply open whatsapp web (easier than browser) specially for linux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhkarimi1383/whatsapp-electron.git"
+  },
+  "keywords": [
+    "whatsapp"
+  ],
+  "author": "mhkarimi1383",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mhkarimi1383/whatsapp-electron/issues"
+  },
+  "homepage": "https://github.com/mhkarimi1383/whatsapp-electron#readme"
+}
