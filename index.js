@@ -5,7 +5,8 @@ let win
 function createWindow() {
    win = new BrowserWindow({width: 800, height: 600,
             webPreferences: {
-            nodeIntegration: false}})
+            nodeIntegration: false}, transparent: true})
    win.loadURL('https://web.whatsapp.com')
+   win.removeMenu()
 }
 app.on('ready', createWindow)
